@@ -56,16 +56,8 @@ int main(int argc, char* argv[])
         return 6;
     }
 
-    pthread_mutex_destroy(&mutex);              //need to destroy the mutex
+    pthread_mutex_destroy(&mutex);              //don't forget to destroy the mutex
     printf("Number of mails: %d\n", mails);
 
     return 0;
 }
-
-/*
-for compiling-
-
---------------------------------
-gcc -g -pthread file3.c -o file3
---------------------------------
-*/
