@@ -47,10 +47,3 @@ int main(int argc, char* argv[])
     return 0;
 }
 
-/*
-for compiling-
-
---------------------------------
-gcc -g -pthread file4.c -o file4
---------------------------------
-*/
