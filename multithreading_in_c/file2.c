@@ -43,19 +43,3 @@ int main(int argc, char* argv[])
 
     return 0;
 }
-
-/*
-for compiling-
-
---------------------------------
-gcc -g -pthread file2.c -o file2
---------------------------------
-*/
-
-/*
-To get the assembly of this program-
-
---------------
-gcc -S file2.c
---------------
-*/
