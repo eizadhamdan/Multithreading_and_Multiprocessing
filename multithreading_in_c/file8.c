@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 
 void* routine(void* arg)
 {
-    //pthread_mutex_trylock returns 0 if lock is acquired and return EBUSY if lock is not acquired. (EBUSY can be found ion errno header file)
+    //pthread_mutex_trylock returns 0 if lock is acquired and returns EBUSY if lock is not acquired. (EBUSY can be found in errno header file)
     if (pthread_mutex_trylock(&mutex) == 0)
     {
         printf("Mutex lock acquired.\n");
