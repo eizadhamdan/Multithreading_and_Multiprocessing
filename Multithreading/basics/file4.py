@@ -19,7 +19,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 		print(f.result())
 
 """
-In order to the results we can use the function as_completed from the concurrent.futures
+In order to get the results we can use the function as_completed from the concurrent.futures
 module. This gives us an iterator that we can loop over that will yield the results of
 our threads as they are completed.
 """
